@@ -1,0 +1,17 @@
+[
+  {
+    "element_id": "mp_bar",
+    "label": "MP Gauge",
+    "max_val": 100,
+    "regen_rate": 5,
+    "position_x": 0.82,
+    "position_y": 0.88
+  },
+  {
+    "element_id": "materia_slot",
+    "label": "Active Materia",
+    "type": "Icon_Display",
+    "position_x": 0.82,
+    "position_y": 0.82
+  }
+]

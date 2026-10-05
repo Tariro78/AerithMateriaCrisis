@@ -1,0 +1,37 @@
+[
+  {
+    "id": "guard_stick",
+    "name": "Guard Stick",
+    "type": "Weapon_Melee",
+    "replaces": "wp0000_knife",
+    "damage": 150,
+    "knockback": 2.5
+  },
+  {
+    "id": "fire_materia",
+    "name": "Fire Materia",
+    "type": "Weapon_Magic",
+    "replaces": "wp0001_handgun",
+    "damage": 350,
+    "mp_cost": 10,
+    "element": "Fire"
+  },
+  {
+    "id": "ice_materia",
+    "name": "Blizzard Materia",
+    "type": "Weapon_Magic",
+    "replaces": "wp0002_shotgun",
+    "damage": 500,
+    "mp_cost": 20,
+    "element": "Ice"
+  },
+  {
+    "id": "lightning_materia",
+    "name": "Thunder Materia",
+    "type": "Weapon_Magic",
+    "replaces": "wp0003_magnum",
+    "damage": 800,
+    "mp_cost": 35,
+    "element": "Lightning"
+  }
+]

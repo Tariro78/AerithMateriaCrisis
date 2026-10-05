@@ -1,0 +1,37 @@
+{
+  "manifestVersion": 1,
+  "id": "aerith-materia-crisis",
+  "title": "Aerith's Materia Crisis",
+  "tagline": "A REFramework MP gauge prototype for Resident Evil 7.",
+  "description": "Prototype that displays and regenerates an MP gauge. The item and HUD sheets are included as reference data; they are not yet connected to weapon behavior or in-game assets.",
+  "license": "MIT",
+  "games": [
+    {
+      "id": "resident-evil-7",
+      "name": "Resident Evil 7 biohazard",
+      "role": "host"
+    },
+    {
+      "id": "ff7-ever-crisis",
+      "name": "FINAL FANTASY VII EVER CRISIS",
+      "role": "inspiration"
+    }
+  ],
+  "components": [
+    {
+      "fileName": "reframework/autorun/aerith_materia.lua",
+      "destination": "{game}/reframework/autorun/aerith_materia.lua"
+    },
+    {
+      "fileName": "items_sheet.json",
+      "destination": "{game}/reframework/data/items_sheet.json"
+    },
+    {
+      "fileName": "hud_sheet.json",
+      "destination": "{game}/reframework/data/hud_sheet.json"
+    }
+  ],
+  "loaders": [
+    "reframework"
+  ]
+}
